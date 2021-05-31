@@ -4,8 +4,11 @@
     <title>image</title>
 </head>
 <body>
-<img src="image.php">
-<div class="count">0</div>
+<div align="center">
+    <img src="image.php" style="padding-top: 100px;">
+    <div class="count" style="padding-top: 20px">0</div>
+</div>
+
 <script type="text/javascript">
     var incr, number = localStorage.getItem('incr'),
         count = document.querySelector('.count');
